@@ -1,8 +1,11 @@
 import React from 'react';
 import './App.css';
 import {useState} from 'react';
-//eval() - means evaluate and execute a function which is a string, eg. eval('1 + 1') is result is 2.
-function App() {
+/*What is eval () function?
+The Eval function evaluates the string expression and returns its value.
+ For example, Eval("1 + 1") returns 2.
+  If you pass to the Eval function a string that contains the name of a function, 
+  the Eval function returns the return value of the function */function App() {
   const [calc, setCalc] =useState('');
   const [result, setResult] =useState('');
   const ops = ['/','*','+','-','.'];
