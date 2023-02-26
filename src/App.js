@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {useState} from 'react';
-
+//eval() - means evaluate and execute a function which is a string, eg. eval('1 + 1') is result is 2.
 function App() {
   const [calc, setCalc] =useState('');
   const [result, setResult] =useState('');
